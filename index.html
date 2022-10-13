@@ -17,13 +17,10 @@
 
 <body>
 	<nav>
-		<div class = "navText malText" >MAL GAMES</div>
+		
+      <div class = "navText nav-malText" ><a href="#homeAnchor" rel="noopener"></a>MAL GAMES </a></div>
+    
 			<ul class = "navList">
-				<li>
-					<a href="#homeAnchor" rel="noopener">
-					<span class = "navText">Home</span>
-					</a>
-				</li>
 				<li>
 					<a href="#aboutAnchor" rel="noopener">
 						<span class = "navText">About</span>
@@ -42,15 +39,7 @@
 			</ul>
 	</nav>
 
-	<div class = "home-title">
-		<div class = "logo">
-			<img src="images/mal_Logo.jpg" alt="Mal Logo">
-		</div>
-		<div class = "malDescription">
-		MAL Games is an independent game developer and publisher specializing in Visual Novel Games.  With an eye for creativity and the DIY attitude, we will help make your game a reality.
-		
-	</div>
-	</div>
+
 	
 	<div class = "home-games">
 
@@ -95,12 +84,13 @@
 	
 	<div class = "home-subscribe">
 
-			Be the first to hear about our games!
-			Sign up to the MAL Games newsletter for news, giveaways, and the chance to play our games before anyone else!
+			<h2>Be the first to hear about our games!</h2>
+			<h2>
+      Sign up to the MAL Games newsletter for news, giveaways, and the chance to play our games before anyone else!</h2>
 
 			<form action="" method="post" id = newsletterForm>
 
-				<div class = "form-input"><label for = "email">
+				<div class = "form-input"> <label for = "email">
 					Enter your email address to subscribe. </label>
 					<input type = "email" id = "email" name = "email" >
 					<button>Subscribe</button>
@@ -111,10 +101,30 @@
 			
 	</div>
 
+  
+  
 
 
     
 </body>
 
-<footer>	</footer>
+<footer>
+  <div class = "home-title">
+    <div class = "malDescription">
+      <div class = malText>
+        MAL Games is an independent game developer and publisher specializing in Visual Novel Games.
+      </div>
+      <div class = malText>
+        With an eye for creativity and the DIY attitude, our mission is to help make your game a reality.
+      </div>
+		</div>
+
+    <div class = "logo">
+			<img src="images/mal_Logo.jpg" alt="Mal Logo">
+		</div>
+	</div>
+  <div class = copyright>
+    Copyright 2022 Mal Games
+  </div>
+</footer>
 </html>
