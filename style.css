@@ -2,19 +2,20 @@
 /* Major Sections of the website. */
 body{
     margin:0px;
-    font-family: sans-serif
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
 }
 
 div{
-    /* border:1px solid purple */
-    
+    /* border:1px solid purple */   
 }
 
 
 
 
 /* Links Styliing */
-a:link {
+  a:link {
     color: unset;
     text-decoration: none;
   }
@@ -25,7 +26,7 @@ a:link {
   }
   
   a:hover {
-    color: rgb(254, 0, 0);
+    color: #03b4e9;
     text-decoration:none;
   }
   
@@ -76,9 +77,11 @@ nav{
 }
 
 
-
+/* Game Card List */
 .home-games{
-    margin:20px;
+    width:70%;
+    margin:auto;
+
 }
 
 .home-games-list{
@@ -86,19 +89,29 @@ nav{
     padding:0px;
 }
 
+/* Single Game Card */
+
 .game-container{
+    color: white;
+    background-image: url("images/background_space.jpg");
     display: flex;
+    padding: 20px;
+    /* border: 1px solid blue */
 }
 
 .gameTitle{
     font-family: 'Electrolize', sans-serif;
     font-size: 2em;
 }
-.game-Text{
+.gameText{
+    margin:0px 20px;
 
 }
 .gameDescription{
 
+}
+.singleLine{
+    margin:10px 0px;
 }
 
 .home-subscribe{
