@@ -76,11 +76,16 @@ nav{
     margin:50px auto;
     width:70%;
     justify-content: space-around;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding:10px;
 }
 .malDescription{
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-direction: column;
+
 }
 .copyright{
     text-align: center;
@@ -89,7 +94,7 @@ nav{
 /* Game Card List */
 .home-games{
     width:70%;
-    margin:auto;
+    margin:20px auto;
 }
 .malText{
     display: inline;
@@ -111,14 +116,10 @@ nav{
 .game-container{
     color: white;
     border-radius: 15px;
-    
-
-    /* background-image: url("images/background_space.jpg"); */
-
+    background-image: url("images/background_space.jpg");
     display: flex;
-
     padding: 20px;
-    /* border: 1px solid blue */
+    border: 1px solid white
 }
 
 .gameTitle{
@@ -126,6 +127,7 @@ nav{
     font-size: 2em;
 }
 .gamePoster{
+    align-self: center;
 
 }
 
@@ -144,9 +146,13 @@ nav{
     border-radius: 15px;
     background-color: #03b4e9;
     padding:5px 10px;
-    margin:auto;
+    margin:50px auto;
     width:70%;
     text-align: center;
+}
+
+#newsletterForm{
+    padding:25px;
 }
 
 
